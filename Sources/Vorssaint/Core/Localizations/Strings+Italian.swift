@@ -257,7 +257,7 @@ extension Strings {
         dockPreviewQuitAppOnClose: "Chiudi l’app con il pulsante ×",
         dockPreviewQuitAppOnCloseCaption: "In Dock Preview, × chiude l’intera app invece della sola finestra.",
         dockPreviewKeepDockVisible: "Mantieni il Dock visibile (sperimentale)",
-        dockPreviewKeepDockVisibleCaption: "Sospende la scomparsa automatica durante l’anteprima e la ripristina quando esci. Può ridimensionare le finestre. Se l’app si interrompe, riaprila per ripristinare il Dock.",
+        dockPreviewKeepDockVisibleCaption: "Mantiene sullo schermo il Dock nascosto automaticamente durante l’anteprima. L’impostazione di scomparsa automatica e le dimensioni delle finestre restano invariate.",
         dockPreviewOrderByCreation: "Ordina le finestre per creazione",
         dockPreviewOrderByCreationCaption: "Mostra prima le finestre più vecchie invece di quelle usate di recente.",
         dockClickMinimize: "Riduci con un clic sul Dock",

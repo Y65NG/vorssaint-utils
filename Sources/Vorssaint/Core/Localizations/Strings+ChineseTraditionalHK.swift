@@ -258,7 +258,7 @@ extension Strings {
         dockPreviewQuitAppOnClose: "使用 × 按鈕結束 App",
         dockPreviewQuitAppOnCloseCaption: "在 Dock Preview 中，× 會結束整個 App，而不只是關閉該視窗。",
         dockPreviewKeepDockVisible: "保持 Dock 顯示（實驗性）",
-        dockPreviewKeepDockVisibleCaption: "預覽開啟時暫停自動隱藏，離開時恢復。可能調整視窗大小。如果 App 意外中斷，請重新開啟以恢復 Dock 設定。",
+        dockPreviewKeepDockVisibleCaption: "預覽開啟時讓自動隱藏的 Dock 保持顯示，不會更改自動隱藏設定，也不會改變視窗大小。",
         dockPreviewOrderByCreation: "按建立時間排序視窗",
         dockPreviewOrderByCreationCaption: "先顯示較早建立的視窗，而非最近使用的視窗。",
         dockClickMinimize: "點按 Dock 圖示最小化",

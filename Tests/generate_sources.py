@@ -791,10 +791,6 @@ def main():
                                    "    private func resizePanelForCurrentWindows()",
                                    "    private func clampedPanelFrame("])
           + "}\n")
-    write("DockPreviewFrameRetry.swift", "import Foundation\nextension DockPreviewFrameRestorationTests {\n"
-          + declaration("Sources/Vorssaint/Services/DockPreview/DockPreviewFrameRestoration.swift",
-                        "    private static func restore(").replace("private static func", "static func", 1)
-          + "}\n")
     write("DockPreviewScope.swift", "import Foundation\nextension DockPreviewScopeTests.Service {\n"
           + "".join(declaration(dock, prefix).replace("private func", "func", 1)
                     for prefix in ["    private func syncSpaceObservation()",
@@ -808,14 +804,12 @@ def main():
           + declaration("Sources/Vorssaint/Services/Switcher/WindowPreviewProvider.swift",
                         "    private static func captureIsPaused(").replace("private static", "static", 1)
           + "}\n")
-    write("DockAutohideInput.swift", "import CoreGraphics\nimport Foundation\nextension DockAutohideHoldTests.Service {\n"
+    write("DockHoverHold.swift", "import CoreGraphics\nimport Foundation\nextension DockHoverCursorTests.Service {\n"
           + "".join(declaration(dock, prefix, scope="final class DockPreviewService:")
                     .replace("private func", "func", 1)
-                    for prefix in ["    private func beginDockAutohideHold()",
+                    for prefix in ["    private func beginDockAutohideHold(",
                                    "    private func releaseDockAutohideHold()",
-                                   "    private func handleDockHoldInput(type:",
-                                   "    private func handle(type:",
-                                   "    func commit("])
+                                   "    private func handle(type:"])
           + "}\n")
     # The raw wheel tap runs as shipped: linear scrolling's cap, carry and
     # write-back, then the direction change. Only the services it asks and

@@ -433,7 +433,7 @@ if (( TEST )); then
         Sources/Vorssaint/Services/Audio/MixerRender.swift
         Sources/Vorssaint/Services/Audio/PreciseVolumeRollerSupport.swift
         Sources/Vorssaint/Services/DockPreview/DockPreviewSupport.swift
-        Sources/Vorssaint/Services/DockPreview/DockAutohideHold.swift
+        Sources/Vorssaint/Services/DockPreview/DockHoverCursor.swift
         Sources/Vorssaint/Services/SpacesOrder/SpacesOrderHold.swift
         Sources/Vorssaint/Services/Homebrew/HomebrewSupport.swift
         Sources/Vorssaint/Services/Homebrew/HomebrewEnvironment.swift

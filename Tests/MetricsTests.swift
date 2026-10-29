@@ -209,8 +209,7 @@ struct MetricsTests {
             ("dock-autohide", {
                 DockPreviewPositionTests.run(suite)
                 DockPreviewScrollTests.run(suite)
-                DockAutohideHoldTests.run(suite)
-                DockPreviewFrameRestorationTests.run(suite)
+                DockHoverCursorTests.run(suite)
             }),
             ("spaces-order", { SpacesOrderTests.run(suite) }),
             ("switcher", {

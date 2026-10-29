@@ -132,7 +132,6 @@ struct DockSettings: View {
                                 caption: l10n.s.dockPreviewKeepDockVisibleCaption) {
                         Toggle(l10n.s.dockPreviewKeepDockVisible, isOn: $dockPreviewKeepDockVisible)
                             .labelsHidden()
-                            .disabled(!DockAutohideHold.isSupported && !dockPreviewKeepDockVisible)
                             .onChange(of: dockPreviewKeepDockVisible) { _, _ in
                                 dockPreview.syncWithPreferences()
                             }

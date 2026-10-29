@@ -257,7 +257,7 @@ extension Strings {
         dockPreviewQuitAppOnClose: "Tlačidlom × ukončiť aplikáciu",
         dockPreviewQuitAppOnCloseCaption: "V Dock Preview × ukončí celú aplikáciu namiesto zatvorenia jediného okna.",
         dockPreviewKeepDockVisible: "Ponechať Dock viditeľný (experimentálne)",
-        dockPreviewKeepDockVisibleCaption: "Pozastaví automatické skrývanie, kým je náhľad otvorený, a po odchode ho obnoví. Môže zmeniť veľkosť okien. Ak sa aplikácia preruší, otvorte ju znova a Dock sa obnoví.",
+        dockPreviewKeepDockVisibleCaption: "Ponechá automaticky skrývaný Dock na obrazovke, kým je náhľad otvorený. Nastavenie automatického skrývania ani veľkosť okien sa nezmenia.",
         dockPreviewOrderByCreation: "Zoradiť okná podľa času vytvorenia",
         dockPreviewOrderByCreationCaption: "Zobrazí staršie okná ako prvé namiesto tých naposledy použitých.",
         dockClickMinimize: "Kliknutím na ikonu v Docku minimalizovať",

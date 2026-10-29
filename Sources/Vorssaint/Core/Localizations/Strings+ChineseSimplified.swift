@@ -257,7 +257,7 @@ extension Strings {
         dockPreviewQuitAppOnClose: "使用 × 按钮退出 App",
         dockPreviewQuitAppOnCloseCaption: "在程序坞预览中，× 会退出整个 App，而不只是关闭该窗口。",
         dockPreviewKeepDockVisible: "保持程序坞显示（实验性）",
-        dockPreviewKeepDockVisibleCaption: "预览打开时暂停自动隐藏，离开时恢复。可能调整窗口大小。如果 App 意外中断，请重新打开以恢复程序坞设置。",
+        dockPreviewKeepDockVisibleCaption: "预览打开时让自动隐藏的程序坞保持显示，不会改动自动隐藏设置，也不会改变窗口大小。",
         dockPreviewOrderByCreation: "按创建时间排序窗口",
         dockPreviewOrderByCreationCaption: "先显示较早创建的窗口，而不是最近使用的窗口。",
         dockClickMinimize: "点按程序坞图标最小化",

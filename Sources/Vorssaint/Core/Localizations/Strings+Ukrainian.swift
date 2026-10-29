@@ -248,7 +248,7 @@ extension Strings {
         dockPreviewQuitAppOnClose: "Завершувати програму кнопкою ×",
         dockPreviewQuitAppOnCloseCaption: "У Dock Preview кнопка × завершує всю програму, а не закриває лише це вікно.",
         dockPreviewKeepDockVisible: "Залишати Dock видимим (експериментально)",
-        dockPreviewKeepDockVisibleCaption: "Призупиняє автоматичне приховування Dock, поки відкритий попередній перегляд, і відновлює його після закриття. Може змінити розмір вікон. Якщо роботу програми перервано, відкрийте її знову, щоб відновити Dock.",
+        dockPreviewKeepDockVisibleCaption: "Утримує автоматично прихований Dock на екрані, поки відкритий попередній перегляд. Налаштування автоматичного приховування та розміри вікон не змінюються.",
         dockPreviewOrderByCreation: "Сортувати вікна за часом створення",
         dockPreviewOrderByCreationCaption: "Показувати старіші вікна першими, а не ті, якими ви користувалися нещодавно.",
         dockClickMinimize: "Згортати клацом по Dock",
